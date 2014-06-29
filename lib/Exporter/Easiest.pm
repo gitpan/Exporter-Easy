@@ -1,12 +1,10 @@
-# $Header: /home/fergal/my/cvs/Exporter-Easy/lib/Exporter/Easiest.pm,v 1.5 2003/02/13 13:09:15 fergal Exp $
-# Be lean.
-use strict;
-no strict 'refs';
-
 package Exporter::Easiest;
+$Exporter::Easiest::VERSION = '0.16_01';
+use 5.006;
+use strict;
+use warnings;
 
-require 5.006;
-
+no strict 'refs';
 require Exporter::Easy;
 
 sub import
@@ -131,7 +129,12 @@ not significant, all the parsing logic revolves around the use of ':'s and
 
 =head1 SEE ALSO
 
-For the real details on exporting symbols see Exporter and Exporter::Easy
+For the real details on exporting symbols see L<Exporter>
+and L<Exporter::Easy>.
+
+=head1 REPOSITORY
+
+L<https://github.com/neilbowers/Exporter-Easy>
 
 =head1 AUTHOR
 
