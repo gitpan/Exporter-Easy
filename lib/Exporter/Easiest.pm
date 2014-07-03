@@ -1,5 +1,5 @@
 package Exporter::Easiest;
-$Exporter::Easiest::VERSION = '0.16_01';
+$Exporter::Easiest::VERSION = '0.17';
 use 5.006;
 use strict;
 use warnings;

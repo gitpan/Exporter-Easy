@@ -24,4 +24,4 @@ requires:
 resources:
   homepage: https://github.com/neilbowers/Exporter-Easy
   repository: https://github.com/neilbowers/Exporter-Easy.git
-version: 0.16_01
+version: '0.17'
